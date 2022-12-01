@@ -11,16 +11,17 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+ <!----<style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style>-->
 </head>
 <body>
   <Header>
-    <img src="" alt="Website logo">
+    <img src="./assets/images/logo.svg" 
+    alt="Website logo" id="logo">
     <nav>
-      <ul>
+      <ul id="uOrder">
         <il><a href="#" target="_blank">Home</a></il>
         <il><a href="#" target="_blank">New</a></il>
         <il><a href="#" target="_blank">Popular</a></il>
@@ -33,37 +34,39 @@
 <div id="main-two-div">
 
   <div class="main-first-div">
-    <div class="image">
-      <img src="" alt="picture of mingled shapes">
+    <div id="desktop-image">
+      
     </div>
 
-    <div>
-      The Bright Future of Web 3.0?
-    </div>
+    <div id="ReadMoreButtonSection">
+      <div id="Bright">
+        <h2>The Bright Future of Web 3.0?</h2>
+      </div>
 
-    <div id="readmoreDiv">
-      <p>
-        We dive into the next evolution 
-        of the web that claims to put the power
-        of the platforms back into the hands of the people. 
-        But is it really fulfilling its promise?
-      </p>
-    
-      <button>
-        Read more
-      </button> 
+      <div id="readmoreDiv">
+        <p>
+          We dive into the next evolution 
+          of the web that claims to put the power
+          of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?
+        </p>
+      
+        <input type="button" 
+        value ="Read more"
+        class="button">
+      </div>
     </div>
 
 
   </div>
     
-
-    
-
-    
   
   <div class="main-secod-div">
-    New 
+
+    <div id="newDiv">
+      <h1>New</h1> 
+    </div>
+    
     <div class="newDiv">
       <h5> Hydrogen VS Electric Cars</h5>
       <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
@@ -92,20 +95,24 @@
   <div class="threContainers">
 
     <div class="threDiv">
-      <div class="icon-three-div"><img src="" alt="icon of a pc"></div>
+      <div class="icon-three-div">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="icon of a pc">
+      </div>
 
       <div class="info-three-div">
-        01
+        <p>01</p>
         <h6>Reviving Retro PCs</h6>
         <p> What happens when old PCs are given modern upgrades?</p>
       </div>
     </div>
 
     <div class="threDiv">
-      <div class="icon-three-div"><img src="" alt="icon of a pc"></div>
+      <div class="icon-three-div">
+        <img src="./assets/images/image-top-laptops.jpg" alt="icon of a pc">
+      </div>
 
       <div class="info-three-div">
-        02
+        <p>02</p>
         <h6>Top 10 Laptops of 2022</h6>
         <p>Our best picks for various needs and budgets.</p>
       </div>
@@ -113,10 +120,10 @@
 
 
     <div class="threDiv">
-      <div class="icon-three-div"><img src="" alt="icon of a pc"></div>
+      <div class="icon-three-div"><img src="./assets/images/image-gaming-growth.jpg" alt="icon of a pc"></div>
 
       <div class="info-three-div">
-        03
+        <p>03</p>
         <h6>The Growth of Gaming</h6>
         <p>How the pandemic has sparked fresh opportunities.</p>
       </div>
