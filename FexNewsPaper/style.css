@@ -5,14 +5,14 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: hsl(36, 85%, 62%);
+    background-color:hsl(36, 100%, 99%);
 }
 
 
 .nav-flex-container{
-    display: flex;
+   display: flex;
    padding: 20px;
-   background-color: hsl(5, 85%, 63%);
+   background-color: hsl(36, 100%, 99%);
    justify-content: center;
 }
 
@@ -24,7 +24,7 @@ body{
 
 .nav-item ul .nav-items{
     justify-content: space-around;
-    color: white;
+    color: hsl(240, 100%, 5%);
     padding: 20px 60px;
 }
 
@@ -68,16 +68,18 @@ Very dark blue: hsl(240, 100%, 5%)*/
 /*bright..text section*/
 .text-item{
     color:hsl(240, 100%, 5%);
-    flex-wrap: wrap;
+    
 }
  
 .text-item h1{
     margin:0px 10px;
 }
 
-.text-button-item { 
+.text-button-item button { 
     
-    
+    color:white;
+    background-color: rgb(207, 81, 123);
+    padding:15px 25px;
 }
 
 /*second-flex-item*/
@@ -85,12 +87,14 @@ Very dark blue: hsl(240, 100%, 5%)*/
 .second-flex-item{
     color: white;
     background-color: rgb(16, 16, 90);
+    
 }
 
 .news-items{
     
     border-bottom: 1px solid white;
     margin: 0px 15px;
+    margin-bottom:20px;
 }
 
 #news{
@@ -99,4 +103,37 @@ Very dark blue: hsl(240, 100%, 5%)*/
 
 #news h1:hover{
     color: rgb(221, 185, 25);
+}
+
+/*THREE computer section*/
+
+.three-computer-flex-container{
+    display:flex;
+    margin-top:15px;
+    justify-content: center;
+}
+
+.three-item{
+    display: flex;
+}
+
+.image-item img{
+    width: 150px;
+    height: 100%;
+}
+
+.info-item{
+    word-wrap: break-word;
+}
+
+.info-item h1{
+    color: hsl(233, 8%, 79%);
+}
+
+.info-item h3{
+    color:hsl(240, 100%, 5%);
+}
+
+.info-item p{
+    color:hsl(233, 8%, 79%);
 }
