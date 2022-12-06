@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(36, 85%, 62%);
+}
+
+
+.nav-flex-container{
+    display: flex;
+   padding: 20px;
+   background-color: hsl(5, 85%, 63%);
+   justify-content: center;
+}
+
+.nav-item nav ul{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap; 
+}
+
+.nav-item ul .nav-items{
+    justify-content: space-around;
+    color: white;
+    padding: 20px 60px;
+}
+
+.nav-items a{
+    font-style: oblique;
+    font-weight:750;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*## Colors
+
+### Primary
+
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+
+### Neutral
+
+Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%)*/
+
+/*BODY mid div SECTION**/
+
+.mid-flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image-item img{
+    width: 500px;
+    margin: 5px;
+}
+
+.inner-txt-btn-flex-item{
+    display: flex;
+    
+}
+
+/*bright..text section*/
+.text-item{
+    color:hsl(240, 100%, 5%);
+    flex-wrap: wrap;
+}
+
+.text-item h1{
+    margin:0px 10px;
+}
+
+.text-button-item { 
+    
+    
+}
+
+/*second-flex-item*/
+
+.second-flex-item{
+    color: white;
+    background-color: rgb(16, 16, 90);
+}
+
+.news-items{
+    
+    border-bottom: 1px solid white;
+    margin: 0px 15px;
+}
+
+#news{
+    border:none;
+}
+
+#news h1:hover{
+    color: rgb(221, 185, 25);
+}
