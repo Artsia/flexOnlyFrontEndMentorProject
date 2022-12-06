@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background-color:hsl(36, 100%, 99%);
+    
 }
 
 
@@ -26,6 +27,7 @@ body{
     justify-content: space-around;
     color: hsl(240, 100%, 5%);
     padding: 20px 60px;
+    
 }
 
 .nav-items a{
@@ -34,20 +36,6 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 
-/*## Colors
-
-### Primary
-
-- Soft orange: hsl(35, 77%, 62%)
-- Soft red: hsl(5, 85%, 63%)
-
-### Neutral
-
-Off-white: hsl(36, 100%, 99%)
-Grayish blue: hsl(233, 8%, 79%)
-Dark grayish blue: hsl(236, 13%, 42%)
-Very dark blue: hsl(240, 100%, 5%)*/
-
 /*BODY mid div SECTION**/
 
 .mid-flex-container{
@@ -55,45 +43,80 @@ Very dark blue: hsl(240, 100%, 5%)*/
     justify-content: center;
 }
 
-.image-item img{
+.first-flex{
+    margin-right: 15px ;
+   /**contains
+   image-item and inner-txt-btn-flex-item div
+   */
+   
+}
+
+.image-item{
+    background-image: url("./images/image-web-3-desktop.jpg");
+    background-size: cover;
+    height: 250px;
+}
+
+.image-item #img{
     width: 500px;
 }
 
 .inner-txt-btn-flex-item{
     display: flex;
-    
+    height:250px;
+    align-items: center; 
 }
 
 /*bright..text section*/
 .text-item{
     color:hsl(240, 100%, 5%);
-    
+    width: 50%;
+}
+
+.ptbi{
+    margin: 0;
+    padding-bottom: 2px;
+    color: gray;
+
 }
  
 .text-item h1{
     margin:0px 10px;
+    
 }
 
 .text-button-item button { 
     
     color:white;
     background-color: rgb(207, 81, 123);
-    padding:15px 25px;
+    margin-top:25px;
+    padding:10px 40px;
+    font-weight: 700;
+}
+
+.text-button-item button:hover{
+    background-color: rgb(197, 156, 80);
 }
 
 /*second-flex-item*/
 
 .second-flex-item{
     color: white;
-    background-color: rgb(16, 16, 90);
+    background-color:  hsl(240, 100%, 5%);
     
 }
 
-.news-items{
-    
+.news-items{   
     border-bottom: 1px solid white;
-    margin: 0px 15px;
-    margin-bottom:20px;
+    margin: 0px 15px; 
+}
+
+.news-item h4{
+    font-weight: bold;
+}
+
+#last-news-item{
+    border-bottom:none;
 }
 
 #news{
@@ -116,13 +139,20 @@ Very dark blue: hsl(240, 100%, 5%)*/
     display: flex;
 }
 
-.image-item img{
-    width: 150px;
-    height: 100%;
+.image-item-third{
+    display: flex;
+    height:300px;
+    align-items: center;
+    width: 50%;
+}
+
+.image-item-third img{
+    width: 100px;
+    height: 100px;
 }
 
 .info-item{
-    word-wrap: break-word;
+    margin:20% 10px
 }
 
 .info-item h1{
